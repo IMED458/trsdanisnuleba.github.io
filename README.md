@@ -243,12 +243,13 @@
     import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query, orderBy } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
     const firebaseConfig = {
-      apiKey: "AIzaSyCqNceaV85lJXAHcv7fEUtqYFDWl-g-GAc",
-      authDomain: "danishnuleba1.firebaseapp.com",
-      projectId: "danishnuleba1",
-      storageBucket: "danishnuleba1.firebasestorage.app",
-      messagingSenderId: "439396384140",
-      appId: "1:439396384140:web:a2c6327fb5e3f3035daaa9"
+      apiKey: "AIzaSyDN4xWV2GvuylCFFc5MfKVK4CeEEdRG-A4",
+      authDomain: "trsdanishnuleba.firebaseapp.com",
+      projectId: "trsdanishnuleba",
+      storageBucket: "trsdanishnuleba.firebasestorage.app",
+      messagingSenderId: "303723941342",
+      appId: "1:303723941342:web:190d1a27f263ee2b9f214f",
+      measurementId: "G-QSJYMCD882"
     };
     const app = initializeApp(firebaseConfig);
     const db = getFirestore(app);
