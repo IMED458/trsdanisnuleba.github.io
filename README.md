@@ -260,7 +260,7 @@
     let lastAutoFilledPatientName = '';
     const REGISTRATION_XLSX_IMPORT_URL = 'https://cdn.jsdelivr.net/npm/xlsx@0.18.5/+esm';
     const REGISTRATION_SETTINGS = {
-      googleSheetsId: 'https://docs.google.com/spreadsheets/d/1zsuLPC1hDVJ1pzGMsk_LY1bILCF6Dbd7/edit?gid=226530235#gid=226530235',
+      googleSheetsId: '',
       sheetName: '',
       columnMapping: {
         firstName: 'C',
